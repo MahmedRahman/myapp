@@ -12,7 +12,7 @@ Widget customTwoText({
       InkWell(
         onTap: onTap1,
         child: Text(
-          "Didn’t have any account?",
+          title1,
           style: TextStyle(
             fontSize: 18,
             color: Colors.white,
@@ -25,7 +25,7 @@ Widget customTwoText({
       InkWell(
         onTap: onTap2,
         child: Text(
-          "Sign Up here",
+          title2,
           style: TextStyle(
             fontSize: 18,
             color: Color(0xff0ACF83),

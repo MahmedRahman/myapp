@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-Widget customTitle(String title, String subtitle) {
+Widget customTitle(String title, String subtitle, {MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start}) {
   return Column(
-    // mainAxisAlignment: MainAxisAlignment.center,
+    mainAxisAlignment: mainAxisAlignment,
     crossAxisAlignment: CrossAxisAlignment.center,
     children: [
       SizedBox(
